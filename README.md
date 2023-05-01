@@ -44,6 +44,9 @@ Schreibe ein Programm, das dem Roboter Anweisungen gibt, um den Garten gemäß d
 Dafür müssen die Befehle `fahre_norden`, `fahre_osten`, `fahre_sueden`, `fahre_westen`, `gegenstand_aufheben` und `gegenstand_absetzen` durch Zeilenumbrüche getrennt hintereinander ausgegeben werden.
 Um einen Befehl mehrfach auszuführen, kann eine natürliche Zahl durch ein Leerzeichen getrennt hinter dem Befehl ausgegeben werden.
 
+Das Programm darf in einer beliebigen Programmiersprache geschrieben werden.
+Wenn die Sprache nicht gängig ist, sollte eine kurze Anleitung zum Ausführen mit dabei sein.
+
 Die Ausgabe des Programms für das Beispiel sollte in etwa so aussehen:
 
 ```
