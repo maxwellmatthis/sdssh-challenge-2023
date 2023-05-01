@@ -1,8 +1,15 @@
 # Challenge - Garten Aufräumen
 
-Ein Roboter soll den Garten aufräumen. Der Garten hat verschiedene Bereiche. Jeder Bereich hat einen Buchstaben. In einem Bereich kann sich genau ein Gegenstand, z.B. ein Trampolin, Stuhl oder Ball, befinden. Mindestens einer der Bereiche ist immer frei.
+Ein Roboter soll einen Garten aufräumen.
+Der Garten hat verschiedene durchbuchstabierte Bereiche.
+In einem Bereich kann sich genau ein Gegenstand (z.B. ein Ball oder ein Stuhl) befinden.
+Mindestens einer der Bereiche ist immer frei.
 
-Nun soll der Roboter die Gegenstände nach ihrer Masse sortieren und in die richtigen Bereiche bringen. Der schwerste Gegenstand gehört in den Bereich A, der Zweitschwerste in den Bereich B und so weiter. Dabei kann der Roboter nur einen Gegenstand zur Zeit transportieren und diesen nur in einem freien Bereich absetzen. Um Gegnstände zu nehmen oder abzusetzen muss der Roboter sich in dem Bereich befinden. Der Roboter darf zu jedem Zeitpunkt mit oder ohne Gegenstand überall entlangfahren.
+Nun soll der Roboter die Gegenstände nach ihrer Masse sortieren und in die richtigen Bereiche bringen.
+Der schwerste Gegenstand gehört in den Bereich A, der Zweitschwerste in den Bereich B und so weiter.
+Dabei kann der Roboter nur einen Gegenstand zurzeit transportieren und diesen nur in einem freien Bereich absetzen.
+Um Gegenstände zu nehmen oder abzusetzen muss der Roboter sich in dem Bereich befinden.
+Der Roboter darf zu jedem Zeitpunkt mit oder ohne Gegenstand überall entlangfahren.
 
 Gegeben sind die Massen der Gegenstände in Kilogramm und eine Karte vom Garten. Das Dateiformat geht wie folgt:
 
@@ -19,7 +26,10 @@ B=400
 ......$......
 ```
 
-- In den ersten Zeilen der Datei befinden sich die Buchstaben der Bereiche mit den zugehörigen Gewichten von den Gegenständen, die sich dort befinden. Bereiche ohne Gewichtsangabe sind frei. Zudem werden Buchstaben nie ausgelassen, es kann also nur einen Bereich D geben, wenn es die Bereiche A, B, und C gibt. Die Anzahl der Bereiche ist aber variabel.
+- In den ersten Zeilen der Datei befinden sich die Buchstaben der Bereiche mit den zugehörigen Gewichten von den Gegenständen, die sich dort befinden.
+  Bereiche ohne Gewichtsangabe sind frei.
+  Zudem werden Buchstaben nie ausgelassen, es kann also nur einen Bereich D geben, wenn es die Bereiche A, B, und C gibt.
+  Die Anzahl der Bereiche ist aber variabel.
 - Eine Leerzeile beendet den Abschnitt mit den Angaben zu den Bereichen
 - Darauf folgt eine genordete Karte. Dabei steht:
     - ein Punkt für Rasen,
@@ -30,27 +40,29 @@ Dieses Beispiel und Weitere zum Testen befinden sich im [Material Ordner](./mate
 
 ## Aufgabe
 
-Schreibe ein Programm, das ausgibt, was der Roboter tun muss, um seine Aufgabe zu erfüllen. Es gibt die Befehle `fahre_norden`, `fahre_osten`, `fahre_sueden`, `fahre_westen`, `nehme_gegenstand` und `setze_gegenstand_ab`. Hinter den Befehlen zum Fahren soll immer stehen, wie häufig sie durchgeführt werden sollen, damit die Ausgabe besser lesbar ist.
+Schreibe ein Programm, das dem Roboter Anweisungen gibt, um den Garten gemäß den Anforderungen aufzuräumen.
+Dafür müssen die Befehle `fahre_norden`, `fahre_osten`, `fahre_sueden`, `fahre_westen`, `gegenstand_aufheben` und `gegenstand_absetzen` durch Zeilenumbrüche getrennt hintereinander ausgegeben werden.
+Um einen Befehl mehrfach auszuführen, kann eine natürliche Zahl durch ein Leerzeichen getrennt hinter dem Befehl ausgegeben werden.
 
 Die Ausgabe des Programms für das Beispiel sollte in etwa so aussehen:
 
 ```
 fahre_norden 3
 fahre_westen 4
-nehme_gegenstand
+gegenstand_aufheben
 fahre_osten 3
 fahre_süden 1
-setze_gegenstand_ab
+gegenstand_absetzen
 fahre_norden 1
 fahre_osten 3
-nehme_gegenstand
+gegenstand_aufheben
 fahre_westen 6
-setze_gegenstand_ab
+gegenstand_absetzen
 fahre_osten 3
 fahre_süden 1
-nehme_gegenstand_auf
+gegenstand_aufheben
 fahre_norden 1
 fahre_osten 3
-setze_gegenstand_ab
+gegenstand_absetzen
 ```
 
