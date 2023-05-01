@@ -54,7 +54,7 @@ fahre_norden 3
 fahre_westen 4
 gegenstand_aufheben
 fahre_osten 3
-fahre_süden 1
+fahre_sueden 1
 gegenstand_absetzen
 fahre_norden 1
 fahre_osten 3
@@ -62,7 +62,7 @@ gegenstand_aufheben
 fahre_westen 6
 gegenstand_absetzen
 fahre_osten 3
-fahre_süden 1
+fahre_sueden 1
 gegenstand_aufheben
 fahre_norden 1
 fahre_osten 3
