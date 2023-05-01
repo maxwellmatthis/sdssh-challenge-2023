@@ -26,6 +26,10 @@ B=400
     - ein Buchstabe für einen Bereich,
     - das Dollar (`$`) Zeichen für die Startposition des Roboters.
 
+Dieses Beispiel und Weitere zum Testen befinden sich im [Material Ordner](./material).
+
+## Aufgabe
+
 Schreibe ein Programm, das ausgibt, was der Roboter tun muss, um seine Aufgabe zu erfüllen. Es gibt die Befehle `fahre_norden`, `fahre_osten`, `fahre_sueden`, `fahre_westen`, `nehme_gegenstand` und `setze_gegenstand_ab`. Hinter den Befehlen zum Fahren soll immer stehen, wie häufig sie durchgeführt werden sollen, damit die Ausgabe besser lesbar ist.
 
 Die Ausgabe des Programms für das Beispiel sollte in etwa so aussehen:
