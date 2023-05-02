@@ -69,3 +69,5 @@ fahre_osten 3
 gegenstand_absetzen
 ```
 
+Die Ausgabe deines Programms kannst du mit [diesem Simulator](https://github.com/juho05/sdssh-gartentester) überprüfen.
+
