@@ -8,7 +8,7 @@ Mindestens einer der Bereiche ist immer frei.
 Nun soll der Roboter die Gegenstände nach ihrer Masse sortieren und in die richtigen Bereiche bringen.
 Der schwerste Gegenstand gehört in den Bereich A, der Zweitschwerste in den Bereich B und so weiter.
 Dabei kann der Roboter nur einen Gegenstand zurzeit transportieren und diesen nur in einem freien Bereich absetzen.
-Um Gegenstände zu nehmen oder abzusetzen muss der Roboter sich in dem Bereich befinden.
+Um Gegenstände zu nehmen oder abzusetzen, muss der Roboter sich in dem Bereich befinden.
 Der Roboter darf zu jedem Zeitpunkt mit oder ohne Gegenstand überall entlangfahren.
 
 Gegeben sind die Massen der Gegenstände in Kilogramm und eine Karte vom Garten. Das Dateiformat geht wie folgt:
